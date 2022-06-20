@@ -12,7 +12,7 @@ library(DT)
 library(shinythemes)
 library(shinyalert)
 
-api_key <- "AIzaSyCEo6MD0R7FmI3LN0Ic5K9wnSBdUrislM4"
+api_key <- "Put your own Google Map API"
 hotel <- read.csv("~/hotel.csv")
 
 history <- sample_n(hotel, 2)
